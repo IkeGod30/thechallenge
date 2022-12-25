@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+<meta charset="utf-8">
+
+<meta name="viewpoint" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+
+<!--jquery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap library-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!--Javascript library for bootstrap-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<!--Style sheet-->
+<link rel="stylesheet" href="styles.css">
+
+
+<title>The Flip Challenge</title>
+        
+	</head>
+	<body>
+        
+<div class="container-fluid">
+<nav class="navbar navbar-inverse" style="font-size: 25px;">
+ 
+   
+   <div class="navbar-header"><a class="navbar-brand" href="#" style="color: gold;">The Flip Challenge</a>
+   </div>
+   
+   <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="How_to_Win.html">How to Win</a></li>
+        <li><a href="Prizes.html">Browse Prizes</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+<!--
+        <li style="position: relative; left: 350px; font-size: 16px;"><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+	<li style="position: relative; left: 150px; font-size: 16px;"><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+-->
+		
+        <!--li><span><button class="btn btn-default btn-lg"><a href="#">Sign In</a></button></span></li-->
+    </ul>
+   </div>
+ 
+
+</nav>
+</div>
+
+
+<p class="quizPageHeading">
+
+Welcome to the quiz. There are 10 questions in this quiz and they carry equal marks. Good luck!
+
+</p>
+ <div class="frameDiv"> 
+<iframe id="exodus" class="iQuiz" src="https://www.onlinequizcreator.com/booktreasures/quiz-106537" height="500px"></iframe>
+ </div>
+
+    
+
+<!--div class="container"-->
+
+<!--
+        <p>style="position: relative; top: 100px; left: 330px;"</p>
+    
+        <p>style=" position: absolute; top: 150px; left: 80px;"</p>
+-->
+
+<!--ul id="dotRight">
+      <li>o</li>
+      <li>o</li>
+      <li>o</li>
+      <li>o</li>
+      <li>o</li>
+      <li>o</li>
+      <li>o</li>
+      
+  </ul-->
+
+
+<!--div id="topNav">
+   <!--ul id="top">
+     <li><a href="Home_index.html">Home</a></li>
+     <li><a href="How_to_Win.html">How to Win</a></li>
+     <li><a href="Prizes.html">Browse Prizes</a></li>
+     <li><a href="Contact.html">Contact Us</a></li>
+  </ul-->
+
+
+
+
+
+  
+
+   
+
+
+
+			
+			<!--div class="header">
+				<img src="ImagesForWebsite/banner.jpg" alt="Prize Galery" width="100%" height="100" />
+				
+			</div-->
+
+<!--p id="cap" style="position: absolute; top: 200px; left: 400px;">There are 10 questions in this quiz and they carry equal marks. Good luck!</p-->
+
+
+
+
+<!--div class="container">
+<a href="#" style="position: absolute; top: 500px; left: 400px;" class="btn btn-primary btn-lg">Submit Answers</a>
+
+</div-->
+	
+
+	
+
+		<!--div id="fut">
+	<!--ul id="sec">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Prizes</a></li>
+		<li><a href="#">Terms</a></li>
+	</ul-->
+<!--p>Copyright &copy 2020 Zillion Services</p-->
+
+
+
+<!--script>
+
+//FOR THIS TO WORK, REPLACE THE CLICK EVENT WITH LOAD EVENT FOR THE IFRAME....
+
+
+
+
+//This JS serves to create an Iframe-linked external quiz portal; here a sample local url has been used for demo...
+//First, the function QuizIframe creates the Iframe link
+
+
+function QuizIframe(e) {
+e.preventDefault(); //Prevents repeated creation of element, i.e. the Iframe...
+//...var $elQuiz = $('<Iframe></Iframe>'); //jquery option...
+var elQuiz = document.createElement('Iframe');
+//elQuiz.setAttribute('src', 'https://www.goodreads.com/quizzes/4839-the-dracula-quiz');
+elQuiz.setAttribute('src', 'https://www.onlinequizcreator.com/booktreasures/quiz-106537');
+//...............elQuiz.addAttribute('src', 'https://www.sony.com');
+//elQuiz.addAttribute('href', 'http://www.sony.com');
+//elQuiz.setAttribute('src', 'C:/Users/IKE/Desktop/WebDevelopmentProjects/Projects/ZillionWin/New.html#'); //sets the source of the iframe
+elQuiz.setAttribute('height', '200'); //sets the height of the Iframe
+elQuiz.setAttribute('width', '880'); //sets the width of the Iframe element
+//elQuiz.setAttribute('id', 'Deframe'); //...
+//elQuiz.setAttribute('target', 'iframe_new');
+document.body.appendChild(elQuiz);   //Adds the created element to the page
+
+
+
+
+}
+
+
+//The code below references each image by an element Id; in this case, 'first' for the sneakers image
+//Author: note that for each image, you must create an element Id...
+//The second line of the code first chooses the event upon which the function would act...
+//Then the function is called to set off the desired action
+
+
+//var $el = $("#first");
+var el = document.getElementById('first'); //Picks the element for event action based on element Id
+//var elQuiz = document.getElementById('Deframe'); //...
+if (el.addEventListener) { //That is, if browser is IE newer than IE versions other than 5 to 8, use addEventListener method...
+
+//..$el.on('dblclick', quizload);
+//..$el.on('dblclick', QuizIframe);
+//........el.addEventListener('dblclick', quizLoad, false); //Alert for user
+el.addEventListener('dblclick', QuizIframe, false); //This is the actual event action aka binding
+
+el.addEventListener('dblclick', toPage, false); // This moves user to quiz page
+
+//elQuiz.addEventListener('DOMNodeInsertedIntoDocument', quizLoad, false);
+
+
+//alert(typeof elQuiz);
+//alert(typeof $elQuiz.type);
+
+
+
+}
+
+else { //Otherwise, use attachEvent method to fire the event for the older versions of IE...
+
+el.attachEvent('ondblclick', QuizIframe);
+
+
+</script-->
+
+
+<div class="row container Qsource">
+    <div class="col-sm-12">
+<h4>Quiz Source: Things Fall Apart <i>by Chinua Achebe</i></h4>
+    </div>
+</div>
+        
+        
+<script src="main.js"></script>
+</body>
+</html>
