@@ -688,6 +688,37 @@ color: orange;
     margin-top: 25px;
     border-radius: 5px;
 }
+
+/*###CSS FOR TERMS PAGE###*/
+
+div.table {
+    text-transform: uppercase;
+    margin: auto;
+    
+}
+
+h1.termsHeading {
+    background: #666;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+section.terms > div > p {
+    font-size: 1.4rem;
+}
+
+.lnk {
+    text-decoration: underline;
+}
+
+.numb {
+    color: purple;
+}
+
+ul.subTerm > li {
+    font-size: 1.17rem;
+}
 /*
 iframe.iQuiz {
     width: 100%;
