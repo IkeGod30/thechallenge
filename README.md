@@ -1,5 +1,4 @@
 # flipchallenge
-# flipchallenge
-# flipchallenge
-# thechallenge
-# flip
+
+Hosted on gitHub:
+https://ikegod30.github.io/thechallenge/Home.html
