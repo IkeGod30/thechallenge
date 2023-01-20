@@ -17,38 +17,20 @@ body  {
     line-height: 1;
     margin: 0;
     color: #666;
-    //background: darkorange;
+    /* //background: darkorange;
     //background-color: orange;
     //background-color: white;
     //background-image: url("C:/Users/Tony/Desktop/webProjects/flipchallenge/images/blue2.jpg");
-    font-family: Georgia, "Times New Roman", serif;
-    //font-family: 'Handlee', cursive;
+    font-family: Georgia, "Times New Roman", serif; */
+    /* //font-family: 'Handlee', cursive;
     //font-size: 16px;
     
-    //font-family: 'Inconsolata', monospace;
+    //font-family: 'Inconsolata', monospace; */
 			
 }
 
 
 
-/*
-nav {
-    width: 100%;
-    margin: 0;
-}
-*/
-
-/*
-nav ul {
-    
-    overflow: hidden;
-    //background-color: #eee;
-    margin: 0;
-    padding: 0;
-    //text-align: center;
-    
-}
-*/
 
 nav ul.topNav {
     //background: #eee;
@@ -83,10 +65,10 @@ ul li.topNavRight {
     
 }
 
-ul.topNav li a:hover {
+/* ul.topNav li a:hover {
     //background-color: black;
     //font-size: 2.4rem;
-}
+} */
 
 div.gradient1 {
     text-align: center;
@@ -96,8 +78,8 @@ div.gradient1 {
     margin: 0;
     background-color: #666;
     padding: 2px;
-    //border-radius: 3px;
-    //background-image: url(images/Edited/background_image.jpg);
+    /* //border-radius: 3px;
+    //background-image: url(images/Edited/background_image.jpg); */
 }
 
 div.gradient1 h1 {
@@ -243,56 +225,6 @@ img {
         width: 40%;
         
     }
-/*
-    .pryze {
-        width: 10%;
-    }
-*/
-    
-}
-    
-
-
-
-
-
-
-/*
-.wrapper {
-//position: relative;
-//top: 200px;
-//left: 135px;
-//width: 80%;
-margin: auto;
-padding-top: 4%;
-padding-bottom: 4%;
-//float: flex;
-*/
-				
-}
-
-
-/*
-.row {
-    
-    //display: flex;
-    //width: 100%;
-    flex-wrap: wrap;
-    //align-items: center;
-    //margin: -20px;
-}
-*/
-	
-/*
-div.left-col {
-    margin-left: 2%;
-}
-
-div.right-col {
-    
-  margin-left: 3%;  
-}
-*/
 
 
 .header {
@@ -320,6 +252,7 @@ width: 100%;
 				//border: solid blue;
                 //display: flex;
 					}
+
 			.entry {
                                 
 				width: 200px;
@@ -327,10 +260,11 @@ width: 100%;
                                 
 				margin: 10px;
 				height: 198px;
+            }
 
-				//background-image: url("images/shadow.png");
+				/* //background-image: url("images/shadow.png");
 				//background-repeat: no-repeat;
-				//background-position: bottom;}
+				//background-position: bottom;} */
 		
 			
 
@@ -387,17 +321,17 @@ width: 100%;
 
 				}
 	
-			#sec {
+			/* #sec {
 			//position: absolute;
 			//z-index: 6;
 			//top: 1000;
 			list-style-type: none;
                         width: 100%;
-			padding: 10px;
+			padding: 10px; */
 
 
 
-			}
+			/* }
 			#sec > li  {
 			display: inline;
 			color: green;
@@ -408,17 +342,19 @@ width: 100%;
                         
                         width: 100%;
 			//text-align: center;
-			
+			 */
 
-			}
+			/* }
                      #sec > li > a {
                           text-decoration: none;
 			//margin: 20px;
 			//padding: 10px;
 			//width: 100%;
 
-                                 }
-                     #fut {
+                                 } */
+
+
+                /* #fut {
                       position: absolute;
                       top: 850px;
 		      left: 400px;
@@ -427,7 +363,7 @@ width: 100%;
                       
                       //font-size: 15px;
 
-			}
+			} */
 
                     
 /*
@@ -443,7 +379,7 @@ width: 100%;
 */
 
 
-			figure img {
+			/* figure img {
 				width: 200px;
 				height: 150px;
 				border: 1px dotted #d6d6d6;
@@ -452,37 +388,33 @@ width: 100%;
 				margin: 10px;
 				//border-top-left-radius: 80px 50px;
                 //opacity: 1;
-				}
+				} */
 
-figure {
+/* figure {
     
     margin: 17px;
     //opacity: 1;
 }
-			//figure:hover {
-			//border: solid orange;
-			
-
-			//}
+			 */
 
 			
 			
-figcaption {
+/* figcaption {
 background-image: url("images/icon.png");
 padding-left: 20px;
 background-repeat: no-repeat;
 //color: orange !Important;
-        }
+        } */
 			
 
-			#subhead {
+			/* #subhead {
 			position: absolute;
 			left:550px;
 			//color: rgb(65, 200, 65);
 			font-size: 130%;
 			font-family: inherit;
 			margin: 8px;
-				}
+				} */
 
 /*
 Iframe {
@@ -496,32 +428,32 @@ left: 140px;
 
 
 
-.PrizeHead {
+/* .PrizeHead {
     text-align: center;
     background: orange;
     color: white;
     //border: orange dotted;
     
-}
+} */
 
-div.copyright {
+/* div.copyright {
     text-align: center;
 
-}
+} */
 
 
 
-nav.secondaryNav > ul {
+/* nav.secondaryNav > ul {
     //text-align: center;
     background: purple;
     width: 100%;
     //text-align: center;
-}
+} */
 
-nav.secondaryNav > ul li a {
+/* nav.secondaryNav > ul li a {
     color: white;
     text-align: center;
-    }
+    } */
 
 nav.secondaryNav > ul li {
     text-align: center;
@@ -539,12 +471,12 @@ nav.secondaryNav > ul li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  //margin: 5px 2px;
+  
 }
 
 .fa:hover {
     opacity: 0.7;
-    //background: #3B5998;
+    
 }
 
 .fa-facebook {
@@ -559,7 +491,7 @@ nav.secondaryNav > ul li {
 
 .social {
     text-align: center;
-    //float: right;
+    
     
 }
 
@@ -719,13 +651,4 @@ section.terms > div > p {
 ul.subTerm > li {
     font-size: 1.17rem;
 }
-/*
-iframe.iQuiz {
-    width: 100%;
-}
-*/
 
-/*
-div.contactText div {
-    text-align: justify;
-}*/
