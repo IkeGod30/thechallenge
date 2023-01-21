@@ -1,8 +1,8 @@
-/*
+
 * {
 		box-sizing: border-box;
 			}
-*/
+
 
 /* ############### Defaults ############*/
  
@@ -20,12 +20,10 @@ body  {
     /* //background: darkorange;
     //background-color: orange;
     //background-color: white;
-    //background-image: url("C:/Users/Tony/Desktop/webProjects/flipchallenge/images/blue2.jpg");
-    font-family: Georgia, "Times New Roman", serif; */
-    /* //font-family: 'Handlee', cursive;
-    //font-size: 16px;
-    
-    //font-family: 'Inconsolata', monospace; */
+    //background-image: url("C:/Users/Tony/Desktop/webProjects/flipchallenge/images/blue2.jpg"); */
+    font-family: Georgia, "Times New Roman", serif; 
+
+    /* font-family: 'Inconsolata', monospace; */
 			
 }
 
@@ -33,7 +31,6 @@ body  {
 
 
 nav ul.topNav {
-    //background: #eee;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -82,9 +79,8 @@ div.gradient1 {
     //background-image: url(images/Edited/background_image.jpg); */
 }
 
-div.gradient1 h1 {
-    
-font-size: 60px;
+div.gradient1 h1 {  
+    font-size: 60px;
 }
 
 ul.topNav li.dropDownIcon {
@@ -92,7 +88,7 @@ ul.topNav li.dropDownIcon {
     display: none;
 }
 
-div.gradient1 {
+/* div.gradient1 {
     background-image: url(images/Edited/background_image.jpg);
     text-shadow: 5px 5px 5px rgba(10, 10, 10, .3);
     
@@ -103,37 +99,39 @@ div.gradient1 {
     background: radial-gradient(#ee7600, #ee7600);
     background: black;
     color: yellow;
-}
+} */
 
 
-.heading1 {
+/* .heading1 {
         
         font-family: 'Handlee', cursive;   
         
-    }
+    } */
 
-.PrizeHead {
+/* .PrizeHead {
     
     font-family: 'Handlee', cursive;
-}
+} */
 
-.details {
+/* .details {
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
-}
+} */
 
-nav {
+/* nav {
     
     font-family: 'Michroma', sans-serif;
-}
+} */
 
-.mainNav {
+/* .mainNav {
     font-size: 25px;
-}
+} */
 
 a.navbar-brand {
     color: gold !important;
 }
+
+
 /*
 .imgCenter {
     display:block;
@@ -211,15 +209,15 @@ img {
     .heading1 {
         
         letter-spacing: 5px;
-        //font-size: 70%;
+        /* //font-size: 70%;
         //background-color: orangered;
         //background: #ffe6e6;
-        //font-family: 'Handlee', cursive;
+        //font-family: 'Handlee', cursive; */
             
     }
     
     div.details p {
-        //color: black;
+        /* //color: black; */
         margin-left: 45px;
         position: absolute;
         width: 40%;
@@ -231,14 +229,14 @@ img {
 				
 position: absolute;
 top: 60px;
-//left: 600px;
+/* //left: 600px; */
 width: 100%;
 
                               
 				
 				}
   			
-			#subhead {
+			/* #subhead {
 				position: absolute;
 				left: 450px;
 				top: 150px;
@@ -251,7 +249,7 @@ width: 100%;
 				top: 190px;
 				//border: solid blue;
                 //display: flex;
-					}
+					} */
 
 			.entry {
                                 
@@ -269,29 +267,26 @@ width: 100%;
 			
 
 			
-				#top { 
+				/* #top { 
 				position: absolute;
 				top: 0px;
 				border-radius: 5px;
 				left: 320px;
-				//width: 700px;
 				width: 50%;
-                                list-style-type: none;
+                list-style-type: none;
 				margin: 10px;
 				padding: 2px;
 				text-align: center;
 				font-size: 18px;
-                                
-				
 				background-color: orange; //#f1f1f1;
-				//border: 2px solid #555;
+				
 				
 
-				}
+				} */
 
-                              #top > li {
-                                     display: inline;
-                                        }
+                    /* #top > li {
+                        display: inline;
+                            }
 
 				
                                #top >li > a {
@@ -300,11 +295,11 @@ width: 100%;
 				padding: 8px 16px;
 				text-decoration: none;
                                
-				}
+				} */
 
 				
 
-				li:last-child {
+				/* li:last-child {
 				border-bottom: none;
 
 				}
@@ -320,7 +315,7 @@ width: 100%;
 				color: white;
 
 				}
-	
+	 */
 			/* #sec {
 			//position: absolute;
 			//z-index: 6;
@@ -457,8 +452,8 @@ left: 140px;
 
 nav.secondaryNav > ul li {
     text-align: center;
-    //display: block;
-    //float: right;
+    /* //display: block;
+    //float: right; */
 }
 
 
@@ -475,7 +470,7 @@ nav.secondaryNav > ul li {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
     
 }
 
@@ -491,23 +486,21 @@ nav.secondaryNav > ul li {
 
 .social {
     text-align: center;
-    
-    
-}
+      }
 
 .details p {
     text-align: center;
-    //position: relative;
+    /* //position: relative;
     //left: 30px;
-    //background: purple;
+    //background: purple; */
     color: darkorange;
-    //text-transform: uppercase;
+    /* //text-transform: uppercase; */
 }
 
 .subDetails {
     text-transform: none;
     font-size: 14px;
-    //text-align: center;
+    /* //text-align: center; */
 }
 
 .subDetails:hover {
@@ -519,12 +512,9 @@ span.book {
 }
 
 .book:hover {
- //visibility: visible;
+ /* //visibility: visible; */
     color: grey;
 }
-
-
-
 
 
 
@@ -533,14 +523,14 @@ span.book {
 .firstCol {
     background: lightblue;
     color: black;
-    //margin-right: 1px;
+    /* //margin-right: 1px; */
     height: 450px;
 }
 
 .secondCol {
     background: lightgreen;
     color: black;
-    //margin-right: 1px;
+    /* //margin-right: 1px; */
     height: 450px;
 }
 
@@ -579,12 +569,12 @@ span.book {
 .contactText {
     text-align: center;
     font-size: 20px;
-    //margin: 0;
+    /* //margin: 0; */
 }
 
 .mail {
     font-size: 20px;
-    //text-align: left;
+    /* //text-align: left; */
 }
 
 /* ###### css for Quiz page #####*/
@@ -604,7 +594,7 @@ width: 1200px;
 
 p.quizPageHeading {
 text-align: center;
-//margin: 20px;
+/* //margin: 20px; */
 margin-top: 10px;
 margin-bottom: 60px;
 font-size: 20px;
