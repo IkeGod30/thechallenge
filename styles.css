@@ -603,15 +603,15 @@ p.quizPageHeading {
 text-align: center;
 /* //margin: 20px; */
 margin-top: 10px;
-margin-bottom: 60px;
+/* margin-bottom: 60px; */
 font-size: 20px;
-color: orange;
+color: rgb(18, 80, 39);
 }
 
 .Qsource {
     text-align: center;
     color: white;
-    background: purple;
+    /* background: purple; */
     width: 30%;
     margin: auto;
     margin-top: 25px;
