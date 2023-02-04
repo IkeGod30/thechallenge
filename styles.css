@@ -29,28 +29,28 @@ body  {
 
 
 
-
+/* 
 nav ul.topNav {
     margin: 0;
     padding: 0;
     overflow: hidden;
     
-}
+} */
 
-ul.topNav li {
+/* ul.topNav li {
     
     list-style: none;
     float: left;
     margin: 0;
    
-}
+} */
 
-ul li.topNavRight {
+/* ul li.topNavRight {
     
     float: right;
-}
+} */
 
- ul.topNav li a {
+ /* ul.topNav li a {
     text-decoration: none;
      min-height: 16px;
      padding: 14px;
@@ -60,14 +60,14 @@ ul li.topNavRight {
      color: dodgerblue;
      
     
-}
+} */
 
 /* ul.topNav li a:hover {
     //background-color: black;
     //font-size: 2.4rem;
 } */
 
-div.gradient1 {
+/* div.gradient1 {
     text-align: center;
     letter-spacing: 30px;
     color: white;
@@ -75,18 +75,17 @@ div.gradient1 {
     margin: 0;
     background-color: #666;
     padding: 2px;
-    /* //border-radius: 3px;
-    //background-image: url(images/Edited/background_image.jpg); */
-}
+    
+} */
 
-div.gradient1 h1 {  
+/* div.gradient1 h1 {  
     font-size: 60px;
-}
+} */
 
-ul.topNav li.dropDownIcon {
+/* ul.topNav li.dropDownIcon {
     
     display: none;
-}
+} */
 
 /* div.gradient1 {
     background-image: url(images/Edited/background_image.jpg);
@@ -127,9 +126,9 @@ ul.topNav li.dropDownIcon {
     font-size: 25px;
 } */
 
-a.navbar-brand {
+/* a.navbar-brand {
     color: gold !important;
-}
+} */
 
 
 /*
@@ -209,10 +208,7 @@ img {
     .heading1 {
         
         letter-spacing: 5px;
-        /* //font-size: 70%;
-        //background-color: orangered;
-        //background: #ffe6e6;
-        //font-family: 'Handlee', cursive; */
+        
             
     }
     
@@ -226,16 +222,14 @@ img {
 }
 
 
-.header {
+/* .header {
 				
 position: absolute;
 top: 60px;
-/* //left: 600px; */
 width: 100%;
-
-                              
+                 
 				
-				}
+} */
   			
 			/* #subhead {
 				position: absolute;
@@ -252,14 +246,14 @@ width: 100%;
                 //display: flex;
 					} */
 
-			.entry {
+			/* .entry {
                                 
 				width: 200px;
 				float: left;
                                 
 				margin: 10px;
 				height: 198px;
-            }
+            } */
 
 				/* //background-image: url("images/shadow.png");
 				//background-repeat: no-repeat;
@@ -451,11 +445,10 @@ left: 140px;
     text-align: center;
     } */
 
-nav.secondaryNav > ul li {
+/* nav.secondaryNav > ul li {
     text-align: center;
-    /* //display: block;
-    //float: right; */
-}
+   
+} */
 
 
 
@@ -489,82 +482,78 @@ nav.secondaryNav > ul li {
     text-align: center;
       }
 
-.details p {
+/* .details p {
     text-align: center;
-    /* //position: relative;
-    //left: 30px;
-    //background: purple; */
     color: darkorange;
-    /* //text-transform: uppercase; */
-}
+    
+} */
 
-.subDetails {
+/* .subDetails {
     text-transform: none;
     font-size: 14px;
-    /* //text-align: center; */
-}
+    
+} */
 
-.subDetails:hover {
+/* .subDetails:hover {
     font-size: 20px;   
-}
+} */
 
-span.book {
+/* span.book {
     color: white;
-}
+} */
 
-.book:hover {
- /* //visibility: visible; */
+/* .book:hover {
+ 
     color: grey;
-}
+} */
 
 
 
 /* ###### css for How-to-Win page #####*/
 
 
-.firstCol {
+/* .firstCol {
     background: lightblue;
     color: black;
-    /* //margin-right: 1px; */
     height: 450px;
-}
+} */
 
-.secondCol {
+/* .secondCol {
     background: lightgreen;
     color: black;
-    /* //margin-right: 1px; */
     height: 450px;
-}
+} */
 
 
-.thirdCol {
+/* .thirdCol {
     background: lightblue;
     color: black;
     height: 450px;
-}
+} */
 
 /* .faq {
    text-align: center; 
 } */
 
-.how {
+/* .how {
     font-size: 16px;
-}
-.rule {
+} */
+
+/* .rule {
     border-radius: 5px;
-}
+} */
 
-#selectedText1:hover {
+/* #selectedText1:hover {
     color: blueviolet;
-}
+} */
 
-#selectedText2:hover {
+/* #selectedText2:hover {
     color: gold;
-}
+} */
 
-#selectedText3:hover {
+/* #selectedText3:hover {
     color: green;
-}
+} */
 
 
 /* ###### css for Contact Page page #####*/
@@ -572,51 +561,47 @@ span.book {
 .contactText {
     text-align: center;
     font-size: 20px;
-    /* //margin: 0; */
+   
 }
 
 .mail {
     font-size: 20px;
-    /* //text-align: left; */
+    
 }
+
 
 /* ###### css for Quiz page #####*/
 
-iframe {
+/* iframe {
 
 border: 20px dashed green;
 width: 100%;
 border-radius: 10px;
 
-}
-
-/* .frameD {
-    margin: auto;
 } */
 
-div.frameDiv {
+
+
+/* div.frameDiv {
 margin: auto;
 width: 1200px;
-}
+} */
 
 p.quizPageHeading {
 text-align: center;
-/* //margin: 20px; */
 margin-top: 10px;
-/* margin-bottom: 60px; */
 font-size: 20px;
 color: rgb(18, 80, 38);
 }
 
-.Qsource {
+/* .Qsource {
     text-align: center;
     color: white;
-    /* background: purple; */
     width: 30%;
     margin: auto;
     margin-top: 25px;
     border-radius: 5px;
-}
+} */
 
 /*###CSS FOR TERMS PAGE###*/
 
