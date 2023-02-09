@@ -703,14 +703,18 @@ ul.listStyle {
 
 /* ###### css for Contact Page page #####*/
 
-.contactText {
+div.contactText {
     text-align: center;
     font-size: 20px;
+    background: rgb(15, 63, 15);
+    color: white; padding: 20px;
    
 }
 
-.mail {
-    font-size: 20px;
+
+
+p.mail {
+    font-size: 16px;
     
 }
 
