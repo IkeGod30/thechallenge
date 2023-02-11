@@ -721,20 +721,32 @@ p.mail {
 
 /* ###### css for Quiz page #####*/
 
-/* iframe {
-
-border: 20px dashed green;
-width: 100%;
-border-radius: 10px;
-
-} */
 
 
+iframe {
 
-/* div.frameDiv {
-margin: auto;
-width: 1200px;
-} */
+    border: 10px ridge green;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    
+    }
+
+
+    .Qsource {
+        text-align: center;
+        border-radius: 5px;
+        color: grey;
+        margin: auto;
+      
+        
+    }
+
+    .frameD {
+        margin: auto;
+        
+      }
+      
 
 p.quizPageHeading {
 text-align: center;
@@ -743,14 +755,7 @@ font-size: 20px;
 color: rgb(18, 80, 38);
 }
 
-/* .Qsource {
-    text-align: center;
-    color: white;
-    width: 30%;
-    margin: auto;
-    margin-top: 25px;
-    border-radius: 5px;
-} */
+
 
 /*###CSS FOR TERMS PAGE###*/
 
