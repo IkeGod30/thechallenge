@@ -725,7 +725,7 @@ p.mail {
 
 iframe {
 
-    border: 10px ridge green;
+    border: 10px ridge rgb(0, 128, 0);
     width: 100%;
     border-radius: 10px;
     margin-bottom: 17px;
