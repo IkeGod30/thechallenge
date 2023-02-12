@@ -788,3 +788,20 @@ ul.subTerm > li {
     font-size: 1.17rem;
 }
 
+/*### CSS FOR faq PAGE ###*/
+
+img.imgFaq {
+    height: 300px;
+    /* justify-content: center; */
+}
+
+
+div.faqCont {
+    text-align: center;
+}
+
+div.faqText {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(180, 172, 172);
+}
