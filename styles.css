@@ -7,6 +7,13 @@
     box-sizing: border-box;
         }
 
+html, body {
+    margin:0;
+    padding:0;
+    /* min-width: 1140px; */
+    width: 100%;
+    /* overflow: auto; */
+}
  
 header,
 footer {
@@ -706,8 +713,10 @@ ul.listStyle {
 div.contactText {
     text-align: center;
     font-size: 20px;
-    background: rgb(15, 63, 15);
-    color: white; padding: 20px;
+    /* background: rgb(15, 63, 15); */
+    color: white; 
+    padding: 20px;
+    margin-top: -250px;
    
 }
 
