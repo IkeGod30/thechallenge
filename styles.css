@@ -727,7 +727,7 @@ ul.listStyle {
 } */
 
 
-/* ###### css for Contact Page page #####*/
+/* ###### css for Contact Page #####*/
 
 div.contactText {
     text-align: center;
@@ -785,7 +785,7 @@ color: rgb(18, 80, 38);
 
 
 
-/*###CSS FOR TERMS PAGE###*/
+/*### CSS FOR TERMS PAGE ###*/
 
 div.table {
     text-transform: uppercase;
@@ -798,6 +798,8 @@ h1.termsHeading {
     color: white;
     text-align: center;
     height: 200px;
+    padding: 50px;
+    
 }
 
 section.terms > div > p {
@@ -809,7 +811,7 @@ section.terms > div > p {
 }
 
 .numb {
-    color: purple;
+    color: blueviolet;
 }
 
 ul.subTerm > li {
