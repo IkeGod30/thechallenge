@@ -78,6 +78,17 @@ nav.priNav ul li a {
     font-weight: bold;
 }
 
+/* ### Brand banner ### */
+
+li.brand {
+        
+    float: right;
+       
+  }
+  
+  li.brand a {
+    color: goldenrod!important;
+  }
 
 figure img {
 				
