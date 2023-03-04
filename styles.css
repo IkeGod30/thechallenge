@@ -895,7 +895,7 @@ ul.subTerm > li {
 
 img.imgFaq {
     height: 300px;
-    /* justify-content: center; */
+    
 }
 
 
@@ -904,7 +904,18 @@ div.faqCont {
 }
 
 div.faqText {
-    height: 300px;
+    
     width: 100%;
     background-color: rgb(180, 172, 172);
+}
+
+div.faqText ul {
+    
+    text-align: center;
+    
+
+}
+
+.faqText ul li {
+    list-style-type: none;
 }
