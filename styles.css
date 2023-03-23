@@ -50,21 +50,23 @@ body  {
 
 nav.priNav ul li {
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
  }
 
 
 nav.priNav ul li a {
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 25px;
     color: grey;
     }
 
   nav.priNav ul li a:hover {
-    color: rgb(16, 170, 231);
-    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    /* text-transform: uppercase; */
     /* background: black; */
-    padding: 30px;   
+    /* padding: 15px;    */
 }
 
 /* ### Css for brand animation ###: NOT YET WORKING */ 
@@ -747,10 +749,10 @@ div.contactText {
     font-size: 20px;
     /* background: rgb(15, 63, 15); */
     color: white; 
-    padding: 20px;
     margin-top: -250px;
+    padding: 20px;
    
-}
+ }
 
 
 
@@ -759,6 +761,10 @@ p.mail {
     
 }
 
+.mailHead {
+    color: goldenrod;
+    font-weight: bold;
+}
 
 /* ###### css for Quiz page #####*/
 
@@ -901,6 +907,34 @@ div.faqText ul {
         /* display: flex;
         justify-content: center; */
     }
+
+    div.contactText {
+        text-align: center;
+        font-size: 20px;
+        /* background: rgb(15, 63, 15); */
+        color: black; 
+        margin-top: 10px;
+        padding: 20px;
+        
+       
+       
+    }
+
+    .div.contactText {
+    text-align: center;
+    font-size: 20px;
+    /* background: rgb(15, 63, 15); */
+    color: white; 
+    margin-top: -250px;
+    padding: 20px;
+   
+   }
+
+   .contactVideo {
+    width: 100%;
+    margin: auto 0;
+   }
+
 }
 @media screen and (max-width: 680px) {
     
