@@ -67,7 +67,7 @@ nav.priNav ul li a {
     padding: 30px;   
 }
 
-/* ### Css for brand animation ### */
+/* ### Css for brand animation ###: NOT YET WORKING */ 
 
 
 
@@ -406,71 +406,6 @@ img.imgFaq {
 
 
 
-/*####### Media Querry for Mobile  #########*/
-
-@media screen and (max-width: 768px) {
-    body {
-    background-color: black;
-}
-    
-    .img-fluid {
-        width: 400px;
-        height: 350px;
-    }
-}
-@media screen and (max-width: 680px) {
-    
-    ul.topNav li:not(:nth-child(1)) {
-        display: none;
-           
-    }
-    
-    ul.topNav li.dropDownIcon {
-        float: right;
-        display: block;    
-    }
-    
-    ul.topNav.mobileResponsive li.dropDownIcon {
-        
-        position: absolute;
-        top: 0;
-        right: 0;
-        
-    }
-    
-    ul.topNav.mobileResponsive {
-     position: relative;   
-        
-    }
-    
-    ul.topNav.mobileResponsive li {
-        
-        display: inline;
-        float: none;
-    }
-    
-    ul.topNav.mobileResponsive li a {
-        
-        display:block;
-        text-align: left;
-        
-    }
-    
-    .heading1 {
-        
-        letter-spacing: 5px;
-        
-            
-    }
-    
-    div.details p {
-        /* //color: black; */
-        margin-left: 45px;
-        position: absolute;
-        width: 40%;
-        
-    }
-}
 
 
 /* .header {
@@ -923,4 +858,100 @@ div.faqText ul {
 
 .faqText ul li {
     list-style-type: none;
+}
+
+
+
+/*####### Media Querry for Mobile  #########*/
+
+@media screen and (max-width: 768px) {
+    body {
+    /* background-color: black; */
+}
+    
+    .img-fluid {
+        width: 400px;
+        height: 350px;
+    }
+
+    nav.priNav ul li a {
+        font-size: 10px;
+        margin: 0;
+        /* color: white; */
+
+    }
+
+    .brand {
+        visibility: hidden;
+        /* font-size: 1px; */
+    }
+
+    .PrizeHead {
+        font-size: 1rem;
+        letter-spacing: 10px;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .bnar {
+        width: 100%;
+        /* margin-left: 10px; */
+        margin: auto 0;
+        /* margin-top: 20px; */
+        /* display: flex;
+        justify-content: center; */
+    }
+}
+@media screen and (max-width: 680px) {
+    
+    ul.topNav li:not(:nth-child(1)) {
+        display: none;
+           
+    }
+    
+    ul.topNav li.dropDownIcon {
+        float: right;
+        display: block;    
+    }
+    
+    ul.topNav.mobileResponsive li.dropDownIcon {
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+    
+    ul.topNav.mobileResponsive {
+     position: relative;   
+        
+    }
+    
+    ul.topNav.mobileResponsive li {
+        
+        display: inline;
+        float: none;
+    }
+    
+    ul.topNav.mobileResponsive li a {
+        
+        display:block;
+        text-align: left;
+        
+    }
+    
+    .heading1 {
+        
+        letter-spacing: 5px;
+        
+            
+    }
+    
+    div.details p {
+        /* //color: black; */
+        margin-left: 45px;
+        position: absolute;
+        width: 40%;
+        
+    }
 }
