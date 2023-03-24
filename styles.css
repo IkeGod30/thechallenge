@@ -55,7 +55,7 @@ nav.priNav ul li {
 
 
 nav.priNav ul li a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     font-size: 25px;
     color: grey;
@@ -63,7 +63,7 @@ nav.priNav ul li a {
 
   nav.priNav ul li a:hover {
     color: blue;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* text-transform: uppercase; */
     /* background: black; */
     /* padding: 15px;    */
@@ -148,11 +148,13 @@ nav.priNav ul li a {
 li.brand {
         
     float: right;
+   
        
   }
   
   li.brand a {
     color: goldenrod !important;
+    /* text-transform: lowercase; */
   }
 
 figure img {
