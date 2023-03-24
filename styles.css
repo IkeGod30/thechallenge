@@ -935,6 +935,11 @@ div.faqText ul {
     margin: auto 0;
    }
 
+   .howVideo {
+    width: 100%;
+    margin: auto 0;
+   }
+
 }
 @media screen and (max-width: 680px) {
     
