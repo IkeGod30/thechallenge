@@ -873,10 +873,11 @@ div.faqText ul {
 /*####### Media Querry for Mobile  #########*/
 
 @media screen and (max-width: 768px) {
-    body {
-    /* background-color: black; */
-}
-    
+
+    /* nav.priNav ul li a {
+        font-size: 5px;
+    }  */
+
     .img-fluid {
         width: 400px;
         height: 350px;
@@ -889,9 +890,11 @@ div.faqText ul {
 
     }
 
-    .brand {
+    li.brand a {
         visibility: hidden;
-        /* font-size: 1px; */
+        /* font-size: 5px !important; */
+
+              
     }
 
     .PrizeHead {
@@ -943,7 +946,28 @@ div.faqText ul {
    }
 
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 992px) {
+
+    li.brand a {
+        visibility: hidden;
+        /* font-size: 7px !important; */
+        
+        /* font-size: 1px; */
+    }
+    /* nav.priNav ul li a {
+        font-size: 16px;
+    } */
+
+    .bnar {
+        width: 100%;
+        /* margin-left: 10px; */
+        margin: auto 0;
+        /* margin-top: 20px; */
+        /* display: flex;
+        justify-content: center; */
+    }
+
+
     
     ul.topNav li:not(:nth-child(1)) {
         display: none;
