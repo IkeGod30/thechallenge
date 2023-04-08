@@ -229,7 +229,7 @@ nav.secondaryNav > ul li a {
       
   }
   
-  .fa-facebook {
+  /* .fa-facebook {
     background: #3B5998;
     color: white;
   }
@@ -238,7 +238,12 @@ nav.secondaryNav > ul li a {
     background: #55ACEE;
     color: white;
   }
-  
+   */
+
+   .socialImg {
+    width: 60px;
+    height: 60px;
+   }
   .social {
       text-align: center;
         }
