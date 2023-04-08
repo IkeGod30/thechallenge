@@ -34,13 +34,7 @@ nav {
 			
 body  {
     
-    /* line-height: 1; */
-    /* margin: 0; */
-    /* color: #666; */
-    /* //background: darkorange;
-    //background-color: orange;
-    //background-color: white;
-    //background-image: url("C:/Users/Tony/Desktop/webProjects/flipchallenge/images/blue2.jpg"); */
+    
     font-family: Georgia, "Times New Roman", serif; 
 
     /* font-family: 'Inconsolata', monospace; */
@@ -63,10 +57,7 @@ nav.priNav ul li a {
 
   nav.priNav ul li a:hover {
     color: blue;
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
-    /* background: black; */
-    /* padding: 15px;    */
+    
 }
 
 /* ### Css for brand animation ###: NOT YET WORKING */ 
@@ -202,13 +193,14 @@ nav.secondaryNav > ul {
 nav.secondaryNav > ul li {
     text-align: center;
     display: inline-block;
-        font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 nav.secondaryNav > ul li a {
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    /* letter-spacing: 10px; */
+    /* text-transform: uppercase; */
     margin: 10px;
     }
 
@@ -267,145 +259,6 @@ nav.secondaryNav > ul li a {
         
         }
 
-/* .heading1 {
-    
-    font-family: 'Handlee', cursive;
-    letter-spacing: 15px;
-    color: deepskyblue;
-    font-weight: bolder;
-    
-    
-} */
-
-
-
-
-
-
-/* 
-nav ul.topNav {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-} */
-
-/* ul.topNav li {
-    
-    list-style: none;
-    float: left;
-    margin: 0;
-   
-} */
-
-/* ul li.topNavRight {
-    
-    float: right;
-} */
-
- /* ul.topNav li a {
-    text-decoration: none;
-     min-height: 16px;
-     padding: 14px;
-     display: block;
-     text-transform: uppercase;
-     text-align: center;
-     color: dodgerblue;
-     
-    
-} */
-
-/* ul.topNav li a:hover {
-    //background-color: black;
-    //font-size: 2.4rem;
-} */
-
-/* div.gradient1 {
-    text-align: center;
-    letter-spacing: 30px;
-    color: white;
-    border: solid white;
-    margin: 0;
-    background-color: #666;
-    padding: 2px;
-    
-} */
-
-/* div.gradient1 h1 {  
-    font-size: 60px;
-} */
-
-/* ul.topNav li.dropDownIcon {
-    
-    display: none;
-} */
-
-/* div.gradient1 {
-    background-image: url(images/Edited/background_image.jpg);
-    text-shadow: 5px 5px 5px rgba(10, 10, 10, .3);
-    
-    background: #ee7600;
-    background: -webkit-radial-gradient(#ee7600, #ee7600);
-    background: -o-radial-gradient(#ee7600, #ee7600);
-    background: -moz-radial-gradient(#ee7600, #ee7600);
-    background: radial-gradient(#ee7600, #ee7600);
-    background: black;
-    color: yellow;
-} */
-
-
-/* .heading1 {
-        
-        font-family: 'Handlee', cursive;   
-        
-    } */
-
-/* .PrizeHead {
-    
-    font-family: 'Handlee', cursive;
-} */
-
-/* .details {
-    font-family: 'Inconsolata', monospace;
-    font-size: 18px;
-} */
-
-/* nav {
-    
-    font-family: 'Michroma', sans-serif;
-} */
-
-/* .mainNav {
-    font-size: 25px;
-} */
-
-/* a.navbar-brand {
-    color: gold !important;
-} */
-
-
-/*
-.imgCenter {
-    display:block;
-    margin:auto;
-}
-*/
-
-/*
-.container {
-    
-    display: grid;
-    column-gap: 10px;
-}
-*/
-/*
-img {
-    
-    width: 200px;
-    height: 210px;
-}
-*/
-
 
  /* ### CSS specific to Faq Page ### */
 
@@ -414,7 +267,7 @@ img {
  } */
 
 .faqText {
-    /* color: blue; */
+    
     padding: 10px;
     line-height: 40px;
    
@@ -428,263 +281,6 @@ img.imgFaq {
 
 
 
-
-/* .header {
-				
-position: absolute;
-top: 60px;
-width: 100%;
-                 
-				
-} */
-  			
-			/* #subhead {
-				position: absolute;
-				left: 450px;
-				top: 150px;
-
-				}
-
-				#bySideH {
-				position: absolute;
-				left: 1100px;
-				top: 190px;
-				//border: solid blue;
-                //display: flex;
-					} */
-
-			/* .entry {
-                                
-				width: 200px;
-				float: left;
-                                
-				margin: 10px;
-				height: 198px;
-            } */
-
-				/* //background-image: url("images/shadow.png");
-				//background-repeat: no-repeat;
-				//background-position: bottom;} */
-		
-			
-
-			
-				/* #top { 
-				position: absolute;
-				top: 0px;
-				border-radius: 5px;
-				left: 320px;
-				width: 50%;
-                list-style-type: none;
-				margin: 10px;
-				padding: 2px;
-				text-align: center;
-				font-size: 18px;
-				background-color: orange; //#f1f1f1;
-				
-				
-
-				} */
-
-                    /* #top > li {
-                        display: inline;
-                            }
-
-				
-                               #top >li > a {
-				
-				color: white; //#000;
-				padding: 8px 16px;
-				text-decoration: none;
-                               
-				} */
-
-				
-
-				/* li:last-child {
-				border-bottom: none;
-
-				}
-
-				li a.active {
-				background-color: #4CAF50;
-				color: white;
-
-				}
-
-				li a:hover:not(.active) {
-				background-color: #555;
-				color: white;
-
-				}
-	 */
-			/* #sec {
-			//position: absolute;
-			//z-index: 6;
-			//top: 1000;
-			list-style-type: none;
-                        width: 100%;
-			padding: 10px; */
-
-
-
-			/* }
-			#sec > li  {
-			display: inline;
-			color: green;
-                        padding: 5px;
-                        font-size: 16px;
-                        text-align: center;
-			//box-sizing: none !important;
-                        
-                        width: 100%;
-			//text-align: center;
-			 */
-
-			/* }
-                     #sec > li > a {
-                          text-decoration: none;
-			//margin: 20px;
-			//padding: 10px;
-			//width: 100%;
-
-                                 } */
-
-
-                /* #fut {
-                      position: absolute;
-                      top: 850px;
-		      left: 400px;
-                      //right: 650px;
-			//width: 100%;
-                      
-                      //font-size: 15px;
-
-			} */
-
-                    
-/*
-			figure {
-				display: block;
-				width: 202px;
-				height: 170px;
-				background-color: #e7e3d8;
-                //opacity: 1;
-				
-				padding: 9px;
-				text-align: left;}
-*/
-
-
-			/* figure img {
-				width: 200px;
-				height: 150px;
-				border: 1px dotted #d6d6d6;
-                box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, .5);
-				//border-radius: 50%; //15px;
-				margin: 10px;
-				//border-top-left-radius: 80px 50px;
-                //opacity: 1;
-				} */
-
-/* figure {
-    
-    margin: 17px;
-    //opacity: 1;
-}
-			 */
-
-			
-			
-/* figcaption {
-background-image: url("images/icon.png");
-padding-left: 20px;
-background-repeat: no-repeat;
-//color: orange !Important;
-        } */
-			
-
-			/* #subhead {
-			position: absolute;
-			left:550px;
-			//color: rgb(65, 200, 65);
-			font-size: 130%;
-			font-family: inherit;
-			margin: 8px;
-				} */
-
-/*
-Iframe {
-position: absolute;
-
-top: 900px;
-left: 140px;
-
-}
-*/
-
-
-
-/* .PrizeHead {
-    text-align: center;
-    background: orange;
-    color: white;
-    //border: orange dotted;
-    
-} */
-
-/* div.copyright {
-    text-align: center;
-
-} */
-
-
-
-/* nav.secondaryNav > ul {
-    //text-align: center;
-    background: purple;
-    width: 100%;
-    //text-align: center;
-} */
-
-/* nav.secondaryNav > ul li a {
-    color: white;
-    text-align: center;
-    } */
-
-/* nav.secondaryNav > ul li {
-    text-align: center;
-   
-} */
-
-
-
-
-
-/* .details p {
-    text-align: center;
-    color: darkorange;
-    
-} */
-
-/* .subDetails {
-    text-transform: none;
-    font-size: 14px;
-    
-} */
-
-/* .subDetails:hover {
-    font-size: 20px;   
-} */
-
-/* span.book {
-    color: white;
-} */
-
-/* .book:hover {
- 
-    color: grey;
-} */
 
 
 
@@ -716,49 +312,6 @@ ul.listStyle {
 }
 
 
-
-/* .firstCol {
-    background: lightblue;
-    color: black;
-    height: 450px;
-} */
-
-/* .secondCol {
-    background: lightgreen;
-    color: black;
-    height: 450px;
-} */
-
-
-/* .thirdCol {
-    background: lightblue;
-    color: black;
-    height: 450px;
-} */
-
-/* .faq {
-   text-align: center; 
-} */
-
-/* .how {
-    font-size: 16px;
-} */
-
-/* .rule {
-    border-radius: 5px;
-} */
-
-/* #selectedText1:hover {
-    color: blueviolet;
-} */
-
-/* #selectedText2:hover {
-    color: gold;
-} */
-
-/* #selectedText3:hover {
-    color: green;
-} */
 
 
 /* ###### css for Contact Page #####*/
