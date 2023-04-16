@@ -122,6 +122,11 @@
        </div>
    </div>
 </div>
+ 
+ <div>
+  <p>Site visited by <span id="visits"></span>times.</p>
+  
+ </div>
     
 </footer>
     <br>
@@ -135,6 +140,11 @@ document.addEventListener("DOMContentLoaded", function(){
         return new bootstrap.Tooltip(element);
     });
 });
+ 
+ 
+ function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>  
