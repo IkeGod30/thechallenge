@@ -50,12 +50,17 @@ quiziFrame();
 
 const unavailable = document.querySelectorAll('.disable');
 
+
 for(let z=0; z<unavailable.length; z++) {
     unavailable[z].addEventListener('click', noquizload, false);
 }
 
 function noquizload() {
-    alert("Dear user, this prize is not available at the moment. Please select the prizes with green borders.")
+    
+    alert("Dear user, this prize is not available at the moment. Please select the prizes with green borders.");
+    // alert(unavailable[0].value);
+    // wini.style.border = "thick solid green";
 }
 
-wini.style.border = "thick solid green";
+
+
