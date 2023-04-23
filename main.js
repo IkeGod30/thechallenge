@@ -44,3 +44,18 @@ if (!confirm('Dear user, do you wish to be transferred to the quiz for the conte
 // The quiz iframe function is called
 quiziFrame();
 }
+
+
+// Disable images for prizes that are not yet available for the challenge
+
+const unavailable = document.querySelectorAll('.disable');
+
+for(let z=0; z<unavailable.length; z++) {
+    unavailable[z].addEventListener('click', noquizload, false);
+}
+
+function noquizload() {
+    alert("Dear user, this prize is not available at the moment. Please select the prizes with green borders.")
+}
+
+wini.style.border = "thick solid green";
