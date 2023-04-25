@@ -58,8 +58,7 @@ for(let z=0; z<unavailable.length; z++) {
 function noquizload() {
     
     alert("Dear user, this prize is not available at the moment. Please select the prizes with green borders.");
-    // alert(unavailable[0].value);
-    // wini.style.border = "thick solid green";
+   
 }
 
 
