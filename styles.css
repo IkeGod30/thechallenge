@@ -170,6 +170,14 @@ font-size: 18px;
 /* font-weight: bold; */
 }
 
+.notReady:hover { /* Marks unavailable prize image on hover*/
+    border: solid orange;
+  }
+
+  .ready:hover { /* Marks unavailable prize image on hover*/
+    border: solid green;
+  }
+  
 .mainRow div { /* ### For the bottom margin of the Home page prize image containers ###*/
     margin-bottom: 17px;
 }
