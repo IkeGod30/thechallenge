@@ -13,10 +13,9 @@
 html, body {
     margin:0;
     padding:0;
-    /* min-width: 1140px; */
     width: 100%;
     
-    /* overflow: auto; */
+    
 }
  
 header,
@@ -29,7 +28,7 @@ footer {
 nav {
     
     font-family: 'Michroma', sans-serif;
-    /* font-family: sans-serif; */
+    
 }
 			
 body  {
@@ -49,7 +48,6 @@ nav.priNav ul li {
 
 
 nav.priNav ul li a {
-    /* text-transform: uppercase; */
     text-decoration: none;
     font-size: 25px;
     color: grey;
@@ -145,7 +143,7 @@ li.brand {
   
   li.brand a {
     color: goldenrod !important;
-    /* text-transform: lowercase; */
+   
   }
 
 figure img {
@@ -157,11 +155,7 @@ figure img {
     margin: 10px;
             
     }
-
-    /* div.bnar {
-        width: 100%;
-    } */
-
+  
 figcaption {
 text-align: center;
 color: rgb(196, 5, 196);
