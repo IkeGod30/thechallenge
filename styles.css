@@ -41,22 +41,22 @@ body  {
 }
 
 
-nav.priNav ul li {
+/* nav.priNav ul li {
     display: inline-block;
     margin: 10px;
- }
+ } */
 
 
-nav.priNav ul li a {
+/* nav.priNav ul li a {
     text-decoration: none;
     font-size: 25px;
     color: grey;
-    }
+    } */
 
-  nav.priNav ul li a:hover {
+  /* nav.priNav ul li a:hover {
     color: blue;
     
-}
+} */
 
 /* ### Css for brand animation ###: NOT YET WORKING */ 
 
@@ -134,16 +134,25 @@ nav.priNav ul li a {
 
 /* ### Brand banner ### */
 
-li.brand {
+/* li.brand {
         
     float: right;
    
        
-  }
+  } */
   
-  li.brand a {
+  /* li.brand a {
     color: goldenrod !important;
    
+  } */
+
+  .navbar-brand {
+    color: goldenrod !important;
+  }
+
+  .nav-link {
+    color: purple !important;
+    /* font-weight: bold; */
   }
 
 figure img {
