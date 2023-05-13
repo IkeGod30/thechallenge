@@ -148,6 +148,7 @@ body  {
 
   .navbar-brand {
     color: goldenrod !important;
+    font-family: 'Dancing Script', cursive;
   }
 
   .nav-link {
