@@ -222,32 +222,38 @@ nav.secondaryNav > ul li a {
 
 
 
-   .socialImg {
+/*    .socialImg {
     width: 65px;
     height: 65px;
     padding: 2px;
-   }
+   } */
 
-   .socialImg:hover {
+/*    .socialImg:hover {
     width: 80px;
     height: 80px;
     
-   }
+   } */
 
-  .social {
+/*   .social {
       text-align: center;
-        }
+        } */
 
-    .iconImg {
+/*     .iconImg {
         display: inline-block;
     }
+ */
 
-
-    div.copyright {
+/*     div.copyright {
         text-align: center;
         margin-top: 15px;
         
-        }
+        } */
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 
  /* ### CSS specific to Faq Page ### */
