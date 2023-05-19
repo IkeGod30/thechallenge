@@ -186,35 +186,33 @@ font-size: 18px;
     margin-bottom: 17px;
 }
 
-footer { /* ### For the secondary navigation container ###*/
+/* footer { /* ### For the secondary navigation container ###*/
     background: rgb(110, 21, 21);
     color: white;
     padding: 17px;
-}
+} */
 
 /* ### Secondary Navigation CSS ### */
 
-nav.secondaryNav > ul {
+/* nav.secondaryNav > ul {
     display: inline-block;
     width: 100%;
     height: 40px;
     text-align: center;
     
-}
+} */
 
-nav.secondaryNav > ul li {
+/* nav.secondaryNav > ul li {
     text-align: center;
     display: inline-block;
     font-family: sans-serif;
-}
+} */
 
-nav.secondaryNav > ul li a {
+/* nav.secondaryNav > ul li a {
     color: white;
     text-decoration: none;
-    /* letter-spacing: 10px; */
-    /* text-transform: uppercase; */
     margin: 10px;
-    }
+    } */
 
    
 
@@ -222,32 +220,38 @@ nav.secondaryNav > ul li a {
 
 
 
-   .socialImg {
+/*    .socialImg {
     width: 65px;
     height: 65px;
     padding: 2px;
-   }
+   } */
 
-   .socialImg:hover {
+/*    .socialImg:hover {
     width: 80px;
     height: 80px;
     
-   }
+   } */
 
-  .social {
+/*   .social {
       text-align: center;
-        }
+        } */
 
-    .iconImg {
+/*     .iconImg {
         display: inline-block;
     }
+ */
 
-
-    div.copyright {
+/*     div.copyright {
         text-align: center;
         margin-top: 15px;
         
-        }
+        } */
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 
  /* ### CSS specific to Faq Page ### */
