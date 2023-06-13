@@ -337,7 +337,7 @@ p.mail {
 
 iframe {
 
-    border: 10px ridge rgb(0, 128, 0);
+    /* border: 10px ridge rgb(0, 128, 0); */
     width: 100%;
     border-radius: 10px;
     margin-bottom: 17px;
@@ -500,9 +500,20 @@ div.faqText ul {
    
    }
 
-   .contactVideo {
+   row.contactVideo {
     width: 100%;
     margin: auto 0;
+    /* background-image: url("../theflipchallenge/images/map.png");
+    background-repeat: no-repeat;
+    background-position: center; */
+   }
+
+   div.map {
+    /* width: 100%;
+    margin: auto 0; */
+    /* background-image: url("../theflipchallenge/images/map.png");
+    background-repeat: no-repeat;
+    background-position: center; */
    }
 
    .howVideo {
