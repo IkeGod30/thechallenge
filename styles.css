@@ -193,6 +193,9 @@ footer { /* ### For the secondary navigation container ###*/
     padding: 17px;
 } 
 
+.legal {
+    color: white;
+}
 /* ### Secondary Navigation CSS ### */
 
 /* nav.secondaryNav > ul {
@@ -251,6 +254,7 @@ footer { /* ### For the secondary navigation container ###*/
 .footer {
   text-align: center;
   font-size: 0.9rem;
+  /* color: white; */
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
