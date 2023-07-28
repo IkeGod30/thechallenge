@@ -187,7 +187,8 @@ font-size: 18px;
 }
 
 footer { /* ### For the secondary navigation container ###*/
-    /* background: rgb(110, 21, 21); */
+    /* background: rgb(110, 21, 21); */ 
+    /* CHOOSE BETWEEN THE ABOVE AND BELOW */
     background: rgb(65, 49, 49);
     color: white;
     padding: 17px;
