@@ -41,27 +41,7 @@ body  {
 }
 
 
-/* nav.priNav ul li {
-    display: inline-block;
-    margin: 10px;
- } */
-
-
-/* nav.priNav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-    color: grey;
-    } */
-
-  /* nav.priNav ul li a:hover {
-    color: blue;
-    
-} */
-
 /* ### Css for brand animation ###: NOT YET WORKING */ 
-
-
-
 
 
 .content {
@@ -87,7 +67,7 @@ body  {
 
 
 
-                            /* ### CSS specific to Home Page ### */
+    /* ### CSS specific to Home Page ### */
 
 
 .PrizeHead {  /* ### Heading on Home Page ###*/
@@ -101,19 +81,6 @@ body  {
     font-weight: bold;
 }
 
-/* ### Brand banner ### */
-
-/* li.brand {
-        
-    float: right;
-   
-       
-  } */
-  
-  /* li.brand a {
-    color: goldenrod !important;
-   
-  } */
 
   .navbar-brand {
     color: goldenrod !important;
@@ -183,67 +150,6 @@ footer { /* ### For the secondary navigation container ###*/
 .soc {  /* ### Social media link text ###*/
     color: white;
 }
-/* a:visited {
-    color: white;
-} */
-
-/* link:visited {
-    color: white;
-} */
-/* ### Secondary Navigation CSS ### */
-
-/* nav.secondaryNav > ul {
-    display: inline-block;
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    
-} */
-
-/* nav.secondaryNav > ul li {
-    text-align: center;
-    display: inline-block;
-    font-family: sans-serif;
-} */
-
-/* nav.secondaryNav > ul li a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-    } */
-
-   
-
-/* ###### Social media icons css ####*/
-
-
-
-/*    .socialImg {
-    width: 65px;
-    height: 65px;
-    padding: 2px;
-   } */
-
-/*    .socialImg:hover {
-    width: 80px;
-    height: 80px;
-    
-   } */
-
-/*   .social {
-      text-align: center;
-        } */
-
-/*     .iconImg {
-        display: inline-block;
-    }
- */
-
-/*     div.copyright {
-        text-align: center;
-        margin-top: 15px;
-        
-        } */
 
 .footer {
   text-align: center;
@@ -255,14 +161,11 @@ footer { /* ### For the secondary navigation container ###*/
 
  /* ### CSS specific to Faq Page ### */
 
-
-
 .faqText {
     
     padding: 10px;
     line-height: 40px;
-   
-    
+      
 }
 
 img.imgFaq {
@@ -313,7 +216,6 @@ div.contactText {
  }
 
 
-
 p.mail {
     font-size: 15px;
     
@@ -324,8 +226,9 @@ p.mail {
     font-weight: bold;
 }
 
-/* ###### css for Quiz page #####*/
 
+
+/* ###### css for Quiz page #####*/
 
 
 iframe {
@@ -403,7 +306,6 @@ img.imgFaq {
     height: 300px;
     
 }
-
 
 div.faqCont {
     text-align: center;
