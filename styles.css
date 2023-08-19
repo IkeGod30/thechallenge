@@ -4,8 +4,6 @@
 /* ############### Defaults ############*/
 
 
-
-
 * {
     box-sizing: border-box;
         }
@@ -13,9 +11,7 @@
 html, body {
     margin:0;
     padding:0;
-    width: 100%;
-    
-    
+    width: 100%;   
 }
  
 header,
@@ -33,11 +29,8 @@ nav {
 			
 body  {
     
-    
     font-family: Georgia, "Times New Roman", serif; 
-
-    /* font-family: 'Inconsolata', monospace; */
-			
+    /* font-family: 'Inconsolata', monospace; */			
 }
 
 
@@ -232,13 +225,10 @@ p.mail {
 
 
 iframe {
-
-    /* border: 10px ridge rgb(0, 128, 0); */
     width: 100%;
     border-radius: 10px;
     margin-bottom: 17px;
     height: 800px;
-    /* overflow-y: scroll; */
     
     }
 
