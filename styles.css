@@ -194,8 +194,6 @@ ul.listStyle {
 }
 
 
-
-
 /* ###### css for Contact Page #####*/
 
 div.contactText {
@@ -369,10 +367,7 @@ div.faqText ul {
         /* background: rgb(15, 63, 15); */
         color: black; 
         margin-top: 10px;
-        padding: 20px;
-        
-       
-       
+        padding: 20px;   
     }
 
     .div.contactText {
