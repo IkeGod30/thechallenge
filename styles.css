@@ -435,8 +435,7 @@ div.faqText ul {
         display: block;    
     }
     
-    ul.topNav.mobileResponsive li.dropDownIcon {
-        
+    ul.topNav.mobileResponsive li.dropDownIcon { 
         position: absolute;
         top: 0;
         right: 0;
@@ -444,32 +443,24 @@ div.faqText ul {
     }
     
     ul.topNav.mobileResponsive {
-     position: relative;   
-        
+     position: relative;        
     }
     
-    ul.topNav.mobileResponsive li {
-        
+    ul.topNav.mobileResponsive li { 
         display: inline;
         float: none;
     }
     
     ul.topNav.mobileResponsive li a {
-        
         display:block;
-        text-align: left;
-        
+        text-align: left;      
     }
     
-    .heading1 {
-        
-        letter-spacing: 5px;
-        
-            
+    .heading1 {   
+        letter-spacing: 5px;    
     }
     
     div.details p {
-        /* //color: black; */
         margin-left: 45px;
         position: absolute;
         width: 40%;
