@@ -6,6 +6,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
         }
 
 html, body {
@@ -97,7 +99,8 @@ figure img {
   
 figcaption {
 text-align: center;
-color: rgb(196, 5, 196);
+/* color: rgb(196, 5, 196); */
+color: tomato;
 font-family: 'Inconsolata', monospace;
 font-size: 18px;
 
@@ -121,6 +124,7 @@ footer { /* ### For the secondary navigation container ###*/
     background: rgb(65, 49, 49);
     color: white;
     padding: 17px;
+    
 } 
 
 
