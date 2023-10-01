@@ -122,6 +122,7 @@ footer { /* ### For the secondary navigation container ###*/
     background: rgb(65, 49, 49);
     color: white;
     padding: 17px;
+    width: calc(100% + 12px); /* /* Removes extra space on right margin of the element by addition 12 to make up for the border of -12px */      */
     
 } 
 
@@ -171,7 +172,7 @@ img.imgFaq {
 /* ###### css specific to How-to-Win page #####*/
 
 .howBannerVideo {
-    width: 100%;
+    width: calc(100% + 12px); /* Removes extra space on right margin of the element by addition 12 to make up for the border of -12px */
     margin-top: -15px;
 }
 
