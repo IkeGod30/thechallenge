@@ -117,8 +117,6 @@ font-size: 18px;
 }
 
 footer { /* ### For the secondary navigation container ###*/
-    /* background: rgb(110, 21, 21); */ 
-    /* CHOOSE BETWEEN THE ABOVE AND BELOW */
     background: rgb(65, 49, 49);
     color: white;
     padding: 17px;
@@ -201,9 +199,7 @@ ul.listStyle {
 div.contactText {
     text-align: center;
     font-size: 20px;
-    /* background: rgb(15, 63, 15); */
     color: navy; 
-/*     margin-top: -250px; */
     padding: 20px;
    
  }
@@ -233,11 +229,11 @@ iframe {
     }
 
 
-    .Qsource {
-        text-align: center;
-        border-radius: 5px;
-        color: grey;
-        margin: auto;
+.Qsource {
+    text-align: center;
+    border-radius: 5px;
+    color: grey;
+    margin: auto;
       
         
     }
