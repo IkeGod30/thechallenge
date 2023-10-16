@@ -92,6 +92,7 @@ figure img {
     border: 1px dotted #d6d6d6;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, .5);
     margin: 10px;
+    cursor: pointer;
             
     }
   
